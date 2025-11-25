@@ -3,7 +3,7 @@ import './App.css'
 
 function App() {
   useEffect(() => {
-    // Load and execute pomodoro.js after component mounts
+    
     import('./component/pomodoro.js').catch(err => console.error('Failed to load pomodoro.js:', err));
   }, []);
 
